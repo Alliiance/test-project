@@ -1,0 +1,8 @@
+{
+    "/*": {
+        "target": "https://api.privatbank.ua/p24api/",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}

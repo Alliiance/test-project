@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+        <a mat-button color="accent" [routerLink]="['/']"> Назад </a>
+        <ul>
+            <li>
+                <span>Id</span>
+                <b>{{exchange?.id}}</b>
+            </li>
+            <li>
+                <span>Id пользователя</span>
+                <b>{{exchange?.userId}}</b>
+            </li>
+            <li>
+                <span>Заголовок</span>
+                <b>{{exchange?.title}}</b>
+            </li>
+            <li>
+                <span>Состояние</span>
+                <b>{{exchange?.completed ? "active": "disabled"}}</b>
+            </li>
+        </ul>
+    </div>
+</section>
+
